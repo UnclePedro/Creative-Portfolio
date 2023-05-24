@@ -53,7 +53,7 @@ a {
     padding: 0 8%;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.412);
     background-color: black;
-    background-image: url("/Users/peter/Documents/VS Code Files/230510 - Codecademy Project - flexbox-business-site-starting/resources/images/paramillo.jpg");
+    background-image: url("../images/paramillo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
