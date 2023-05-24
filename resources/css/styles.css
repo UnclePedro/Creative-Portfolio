@@ -1,0 +1,132 @@
+/* General Styling */
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
+a {
+    text-decoration: underline black;
+    color: black;
+}
+
+
+/* Nav Bar */
+
+.nav-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.nav-bar-item-1 a {
+    text-decoration: none;
+}
+
+.nav-bar-item-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 760px) {
+    .nav-bar-container {
+        padding: 0 1.5rem 0 1.5rem;
+        font-size: 1.1rem;
+    }
+}
+
+/* Header Banner */
+
+.header-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    color: white;
+    padding: 0 8%;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.412);
+    background-color: black;
+    background-image: url("../images/paramillo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 2rem;
+    height: 58rem;
+}
+
+@media only screen and (max-width: 760px) {
+    .header-banner {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* Services */
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    font-size: 2rem;
+}
+
+.services-1, .services-2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vw;
+    
+}
+
+.services-1 {
+    background-image: url("/Users/peter/Documents/VS Code Files/230510 - Codecademy Project - flexbox-business-site-starting/resources/images/isaac-highstep.jpg");
+    margin: 3rem 1.5rem 3rem 3rem;
+}
+
+.services-2 {
+    background-image: url("/Users/peter/Documents/VS Code Files/230510 - Codecademy Project - flexbox-business-site-starting/resources/images/andres-untying.jpg");
+    margin: 3rem 3rem 3rem 1.5rem;
+}
+
+@media only screen and (max-width: 760px) {
+    .services-container {
+        flex-flow: column;
+        align-items: center;
+      }
+
+    .services-1, .services-2 {
+        width: 90%;
+        margin: 2rem 3rem;
+      }
+    }
+
+#motion, #stills{
+    background-color: rgb(255, 255, 255);
+    width: 15rem;
+    margin: 1rem;
+}
+
+/* About Me */
+
+.about-me-container {
+    margin: 4rem 20%;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 760px) {
+    .about-me-container {
+        margin: 2rem 10%;
+    }
+}
